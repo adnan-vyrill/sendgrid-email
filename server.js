@@ -1,7 +1,3 @@
-// const client = require('@sendgrid/client');
-// client.setApiKey('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');
-
-
 const messageScript = [
   `Hi --name--,\r\n\r\nGreetings for the New Year 2023 :)\r\n
 It was really amazing to be part of MWC Barcelona and 4YFN 2023, I wanted to meet you in-person at MWC but due to my busy schedule didn't get the chance. Let's catch up here to explore possible collaboration opportunities to work together?\r\n
