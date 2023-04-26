@@ -104,7 +104,7 @@ const sendEmails = (subject = testData.subject, to = testData.to) => {
   // return '';
 
   const sgMail = require('@sendgrid/mail');
-  sgMail.setApiKey('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');
+  sgMail.setApiKey(process.env.SENDGRID_KEY);
   sgMail.setSubstitutionWrappers('--', '--');
 
   const msg = {
